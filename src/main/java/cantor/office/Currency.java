@@ -3,7 +3,10 @@ package cantor.office;
 public enum Currency {
     PLN("PLN"),
     EUR("EUR"),
-    RUB("RUB");
+    RUB("RUB"),
+    GBP("GBP"),
+    CHF("CHF"),
+    USD("USD");
 
 
     private String name;
