@@ -15,7 +15,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MainController {
-    private Stage stage = null;
+
+    @FXML
+    public MenuItem closeItem;
+    @FXML
+    public MenuItem newExchangeItem;
 
     @FXML
     public void initialize() {
